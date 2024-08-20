@@ -1,0 +1,21 @@
+Descendant Selector:(space)
+
+It selects all the children(P) both nested(grand and great grand and so on) and direct children
+
+Child Selector:(>)
+
+It selects all the direct children
+
+
+
+
+Adjacent Sibling Selector:(+)
+
+It selects the adjacent(immediate) sibling(only one) of the given element
+
+General sibling Selector:(~)
+
+It selects all the siblings of the given element
+
+
+
