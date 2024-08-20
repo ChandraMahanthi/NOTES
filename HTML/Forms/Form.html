@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,td,select
+        {
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border: 2px solid black;
+            border-collapse: collapse;
+            margin: auto;
+        }
+        b
+        {
+            color: rgb(234, 47, 47);
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+<table>
+    <tr>
+        <td><label for="name">First Name<b>*</b></label></td>
+        <td><input type="text" id="name" placeholder="Enter your first name" required></td>
+    </tr>
+    <tr>
+        <td><label for="name">Last Name<b>*</b></label></td>
+        <td><input type="text" id="name" placeholder="Enter your last name" required></td>
+    </tr>
+    <tr>
+        <td><label for="DOB">DOB<b>*</b></label></td>
+        <td><input type="date" id="DOB" style="width:173px" required ></td>
+    </tr>
+    <tr>
+        <td>
+            <label for="female">Gender</label>
+        </td>
+        <td>
+            <input type="radio" id="female" name="sex">
+            <label for="female">Female</label>
+            <input type="radio" id="male" name="sex">
+            <label for="male">Male</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="Marital status">Marital Status</label>
+        </td>
+        <td>
+            <input type="radio" id="married" name="status" required>
+            <label for="married">Married</label>
+            <input type="radio" id="unmarried" name="status" required>
+            <label for="unmarried">Unmarried</label>
+        </td>
+    </tr>
+    <tr>
+        <td><label for="mail">E-Mail Id<b>*</b></label></td>
+        <td><input type="text" id="mail" placeholder="Enter your email ID" required></td>
+    </tr>
+    <tr>
+        <td><label for="phone number">Phone Number<b>*</b></label></td>
+        <td><input type="tel" id="phone number"placeholder="Enter your phone number" pattern="[6789].*" required></td>
+    </tr>
+    <tr>
+        <td><label for="nationality">Nationality<b>*</b></label></td>
+        <td><input type="text" id="nationality" required></td>
+    </tr>
+    <tr>        
+        <td><label for="religion">Religion<b>*</b></label></td>
+        <td><input type="text" id="religion" required></td>
+    </tr>
+    <tr>
+        <td><label for="language known">Language Known<b>*</b></label></td>
+        <td><input type="text" id="language known"></td>
+    </tr>
+    <tr>
+        <td><label for="educational details">Educational Details<b>*</b></label></td> 
+        <td><textarea name="" id="educational details" cols="21" rows="10" placeholder="Enter your educational details"></textarea></td>
+    </tr>
+    <tr>
+        <td>
+            <label for="fresher">Fresher/Experience<b>*</b></label>
+        </td>
+        <td>
+            <input type="radio" id="fresher" name="f/e">
+            <label for="fresher">Fresher</label>
+            <input type="radio" id="experience" name="f/e">
+            <label for="experience">Experience</label>
+        </td>
+    </tr>
+    <tr>
+        <td><label for="experience1">Experience<b>*</b></label></td> 
+        <td><textarea name="" id="experience1" cols="21" rows="10" placeholder="Enter about your experience" required></textarea></td>
+    </tr>
+    <tr>
+        <td><label for="state">State</label></td>
+        <td><select name="" id="">
+            <option value="">Andhra Pradesh</option>
+            <option value="">Madhya Pradesh</option>
+            <option value="">Uttar Pradesh</option>
+            <option value="">Himachal Pradesh</option>
+        </select>
+    </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="c++">Skills<b>*</b></label>
+        </td>
+        <td>
+            <input type="checkbox" id="c++">
+            <label for="c++">C++</label>
+            <input type="checkbox" id="JAVA">
+            <label for="JAVA">JAVA</label>
+            <input type="checkbox" id="python">
+            <label for="python">PYTHON</label><br>
+            <input type="checkbox" id="html">
+            <label for="html">HTML</label>
+            <input type="checkbox" id="css">
+            <label for="css">CSS</label>
+            <input type="checkbox" id="javascript">
+            <label for="javascript">JAVASCRIPT</label><br>
+            <input type="checkbox" id="react">
+            <label for="react">REACT</label>
+            <input type="checkbox" id="node">
+            <label for="node">NODE</label>
+           
+        </td>
+    </tr>
+    <tr>
+        <td><label for="resume">Upload Resume<b>*</b></label></td>
+        <td><input type="file" id="resume" required></td>
+    </tr>
+    <tr>
+        <td><input type="submit"></td>
+        <td><input type="reset"></td>
+    </tr>
+</table>
+</body>
+</html>
